@@ -3,9 +3,21 @@ name = "kkvocalcut"
 version = "0.1.0"
 description = "A frontend for Deezer's spleeter for musical source separation, specialized in vocal-instrument binary case."
 authors = ["Beinan Li <li.beinan@gmail.com>"]
+maintainers = ["Beinan Li <li.beinan@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = ""
+repository = "https://github.com/kakyoism/kkvocalcut/"
+documentation = "https://github.com/kakyoism/kkvocalcut/README.md"
+keywords = [
+    "music",
+    "mir",
+    "frontend",
+    "ui",
+]
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = ">=3.6.1,<3.9"
 spleeter = "^2.0.1"
 
 [tool.poetry.dev-dependencies]
@@ -14,3 +26,7 @@ pyinstaller = "^4.1"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.urls]
+issues = "https://github.com/kakyoism/kkvocalcut/issues"
+forked = "https://github.com/deezer/spleeter/"
